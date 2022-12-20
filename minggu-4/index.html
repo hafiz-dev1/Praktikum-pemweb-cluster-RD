@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tugas 4</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://github.com/krsbx/krsbx.github.io/blob/main/Build%20Assets/React/src/Component/Pictures/profile.jpg?raw=true"
+          width="150"
+          height="150"
+          alt="Profile Pict"
+        />
+        <div class="information" data-info>
+          <h1>Hafiz Amrullah!</h1>
+          <p>
+            Web Developer
+            <a href="https://www.dicoding.com/"><code>@Dicoding Indonesia</code></a>
+          </p>
+        </div>
+      </div>
+      <ul class="navigation">
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#job-experience">Job Experience</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact Me</a>
+        </li>
+        <li>
+          <a id="toggler">Theme</a>
+        </li>
+      </ul>
+      <div class="content">
+        <h2 id="about-me">About Me</h2>
+        <div class="introduction">
+          <p class="text" data-info>
+            Hi! I'm a Web Developer
+            <a href="https://www.dicoding.com/"><code>@Dicoding Indonesia</code></a
+            >. as an Informatics Engineering student from Institut Teknologi Sumatera. Been
+            working as a Web Developer in Dicoding Indonesia for 1 year since 2020.
+          </p>
+          <video
+            src="https://www.youtube.com/watch?v=KOsxMThsbEE"
+            poster="https://yt3.ggpht.com/TyP1AqUIKk-lZWJkGMWZJf93SPt95ElD4swiRG7K70tohK-yxtxyQ7piQkTtVLUMpB-0RcKVHA=s176-c-k-c0x00ffffff-no-rj"
+            width="300"
+            preload="none"
+            controls
+            muted
+          ></video>
+        </div>
+        <h2 id="job-experience">Job Experience</h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2">#</th>
+                <th rowspan="2">Role</th>
+                <th rowspan="2">Company</th>
+                <th colspan="2">Period</th>
+              </tr>
+              <tr>
+                <th>Start</th>
+                <th>End</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-texts>1</td>
+                <td data-texts>Web Programmer</td>
+                <td data-texts>Dicoding</td>
+                <td data-texts>2020</td>
+                <td data-texts>Present</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 id="contact-me">Contact Me</h2>
+        <div class="form-container" data-texts>
+          <p>
+            Mail me:
+            <code>
+              <a href="mailto:hafizamrullah9@gmail.com">@Hafiz Amrullah</a></code
+            >
+          </p>
+          <form>
+            <div>
+              <label for="name">Masukan Nama</label>
+              <br /><input id="name" name="name" type="text" />
+            </div>
+            <div>
+              <br />Sudah membuka LinkedIn saya?
+              <br />
+              <div class="radio-checkbox">
+                <input type="radio" name="sudah" />
+                <label for="sudah">Sudah</label>
+              </div>
+              <div class="radio-checkbox">
+                <input type="radio" name="belum" />
+                <label for="belum">Belum</label>
+              </div>
+            </div>
+            <div>
+              <br />Want to connect with me with?
+              <br />
+              <div class="radio-checkbox">
+                <input type="checkbox" name="linkedin" />
+                <label for="linkedin">Linkedin</label>
+              </div>
+              <div class="radio-checkbox">
+                <input type="checkbox" name="email" />
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <br />
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
